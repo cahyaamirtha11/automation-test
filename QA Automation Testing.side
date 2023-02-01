@@ -1,0 +1,364 @@
+{
+  "id": "fcfcadce-3005-415b-b8a0-04694dc88caf",
+  "version": "2.0",
+  "name": "QA",
+  "url": "https://qa.putraprima.id",
+  "tests": [{
+    "id": "0a128165-14be-4c78-968c-c70b7c44ac0a",
+    "name": "Masukkan Angka kosong",
+    "commands": [{
+      "id": "bc0d2172-c68b-400d-a1f7-49301567ff50",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3be33df-a6b7-47a5-b22c-2813c1fb0996",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "623b271d-457f-4c82-80d5-e0084feb8477",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08de80bf-6068-422b-8903-67113985e84b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hitung > font > font",
+      "targets": [
+        ["css=#hitung > font > font", "css:finder"],
+        ["xpath=//button[@id='hitung']/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a93f54-c453-461b-96a8-bb7a468a9fd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30137345-b663-4870-b86a-08a86332e545",
+    "name": "Masukkan Angka 2",
+    "commands": [{
+      "id": "d14a7c21-491d-4853-899e-fc98dc4ed88c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "849532d0-9f79-47bc-9a8a-2a845dfb8144",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7024a09-6b83-4818-ab64-1e4ee3444517",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "757a94da-dc4c-483e-ac75-03858a9d5889",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "09f6e3d1-220f-4288-b25f-3b922e958e38",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hitung > font > font",
+      "targets": [
+        ["css=#hitung > font > font", "css:finder"],
+        ["xpath=//button[@id='hitung']/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "67854071-6e07-41cd-b6cf-dc402e3f76bb",
+    "name": "Masukkan Angka 0",
+    "commands": [{
+      "id": "d60972bc-9f29-4f71-9655-aaf9e03c3ed6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d36dd339-288f-4468-83c4-974419b1dafc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36eb01dd-714e-40c8-920e-21f4ab4147e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74272cac-e12f-44b5-9ea7-4ce4f73fe9d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "2c5fd459-67ca-41ff-a7f3-c5c54b03f401",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitung Faktorial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26ad7bc8-e6e6-4113-b59f-e50b0fe39124",
+    "name": "Masukkan Angka 100",
+    "commands": [{
+      "id": "8d237765-fdbb-4bb8-8d17-ffef769e5a56",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2b16bc-ac63-4a4c-a081-4fb21b3c15cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "693a32c3-8358-4fd7-a09e-ffcd04ccd62c",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d6e03cf-1fdb-49e3-918d-8e46b33954e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "9cefbce8-53ce-4dd7-9e5b-32ad46e4ebc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitung Faktorial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dd49d361-9b6a-44c7-8076-31ccd514f7b7",
+    "name": "Masukkan Angka 180",
+    "commands": [{
+      "id": "5a5e17ce-01dc-402a-a0c7-1739bb0a241b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7047179d-0110-46c3-b023-e1d0403323db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da51d5a8-8257-4c78-8083-7129d41c0799",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ab3189-694e-4ead-98c1-46f39bb71bc0",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "180"
+    }, {
+      "id": "e68e253c-7014-4496-b05b-a6678e1bc1b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitung Faktorial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b1e9806-5841-4013-b8ca-d3b755079c17",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitung Faktorial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "20626200-c282-4ac2-8726-db674d018f27",
+    "name": "Masukkan Angka -1",
+    "commands": [{
+      "id": "1008450f-57c1-4c79-8742-ed272f8404dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23c49c1c-a89a-4e85-afec-eb7e08f66a25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b6f1296-7c7d-4d3b-8275-012f30a48cb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79a8d08d-cfa1-4aee-bb81-fced859a34d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "30fcf1f5-d570-486c-9335-cd7cb1d397bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hitung Faktorial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9e2571e-a180-4461-95a8-e65df61a5c91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a128165-14be-4c78-968c-c70b7c44ac0a"]
+  }],
+  "urls": ["https://qa.putraprima.id/"],
+  "plugins": []
+}
